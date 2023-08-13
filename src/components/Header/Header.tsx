@@ -22,7 +22,7 @@ const Header = () => {
         <nav className="p-2 flex justify-around mx-auto container items-center">
           <div className="space-x-12 font-bold">
             <a
-              href=""
+              href="/home"
               className="hover:text-green-200 translate-all duration-300"
             >
               ホーム
