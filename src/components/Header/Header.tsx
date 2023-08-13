@@ -31,12 +31,6 @@ const Header = () => {
               href=""
               className="hover:text-green-200 translate-all duration-300"
             >
-              教室について
-            </a>
-            <a
-              href=""
-              className="hover:text-green-200 translate-all duration-300"
-            >
               料金
             </a>
             <a
