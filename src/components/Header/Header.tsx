@@ -28,7 +28,7 @@ const Header = () => {
               ホーム
             </a>
             <a
-              href=""
+              href="/tuition"
               className="hover:text-green-200 translate-all duration-300"
             >
               料金
