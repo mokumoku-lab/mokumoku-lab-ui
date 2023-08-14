@@ -34,7 +34,7 @@ const Header = () => {
               料金
             </a>
             <a
-              href=""
+              href="/access"
               className="hover:text-green-200 translate-all duration-300"
             >
               アクセス
