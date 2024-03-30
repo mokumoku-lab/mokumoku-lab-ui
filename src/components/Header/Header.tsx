@@ -40,7 +40,7 @@ const Header = () => {
               アクセス
             </a>
             <a
-              href=""
+              href="/contact"
               className="hover:text-green-200 translate-all duration-300"
             >
               お問い合わせ
