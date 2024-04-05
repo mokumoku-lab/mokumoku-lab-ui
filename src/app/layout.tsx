@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "プログラミングクラブ モクモクラボ",
   description: "静岡県伊東市の本格プログラミングクラブです。",
+  robots: "noindex,nofollow",
 };
 
 export default function RootLayout({
