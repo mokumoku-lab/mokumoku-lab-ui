@@ -29,7 +29,7 @@ export default function Home() {
               <div className="relative w-full h-96">
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src="http://maps.google.co.jp/maps?ll=34.945015726264394, 139.11535928894378&amp;q=34.945015726264394, 139.11535928894378&amp;output=embed&amp;t=m&amp;z=17"
+                  src="https://maps.google.co.jp/maps?ll=34.945015726264394, 139.11535928894378&amp;q=34.945015726264394, 139.11535928894378&amp;output=embed&amp;t=m&amp;z=17"
                 ></iframe>
               </div>
             </div>
