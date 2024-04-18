@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 
 const Navigation = () => {
   return (
@@ -6,16 +7,18 @@ const Navigation = () => {
       <div className="space-x-6 font-bold">
         <Link
           href="/home"
-          className="hover:text-green-200 translate-all duration-300"
+          className="hover:text-orange-300 translate-all duration-300"
         >
           ホーム
         </Link>
+
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSfAJmWtPVwwgIHfu-C7jLlpB_q_KyWOI17qMMA0vRU-dTDaYw/viewform?usp=sf_link"
-          className="after:content-['_↗'] bg-blue-500 text-white py-1 px-2 rounded-md hover:text-green-200 translate-all duration-300"
+          className="font-bold bg-blue-500 text-white py-2 px-2 rounded-md  hover:bg-orange-500 hover:underline translate-all duration-300"
           target="_blank"
         >
           体験・入会する
+          <ArrowTopRightOnSquareIcon className="inline-block h-6 mb-1"></ArrowTopRightOnSquareIcon>
         </Link>
       </div>
     </nav>
