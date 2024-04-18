@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import Navigation from "@/components/Navigation/Navigation";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -18,8 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body suppressHydrationWarning={true} className="bg-gray-200">
+      <body suppressHydrationWarning={true} className="bg-zinc-100">
         <Header></Header>
+        <Navigation></Navigation>
         <main>{children}</main>
       </body>
     </html>
