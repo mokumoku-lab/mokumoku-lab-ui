@@ -31,6 +31,7 @@ export default function Home() {
           </a>
           <div className="w-full h-96 flex justify-center">
             <iframe
+              title="モクモクラボの場所"
               className="top-0 left-0 w-full lg:w-[850px] h-full"
               src="https://maps.google.co.jp/maps?ll=34.945015726264394, 139.11535928894378&amp;q=34.945015726264394, 139.11535928894378&amp;output=embed&amp;t=m&amp;z=17"
             ></iframe>
@@ -54,10 +55,9 @@ export default function Home() {
         <h1 className="text-center text-xl font-bold">顧問紹介</h1>
         <div className="border-t-2" />
         <h1 className="text-center text-lg font-bold">経歴</h1>
-
         <ul className="list-outside text-center">
-          <li>島根大学大学院 卒業</li>
-          <li>某メガベンチャーのシステムエンジニア</li>
+          <li>島根大学大学院修士課程修了</li>
+          <li>メガベンチャーのシステムエンジニア</li>
         </ul>
         <h1 className="text-center text-lg font-bold">資格</h1>
         <ul className="list-outside text-center">
@@ -65,10 +65,7 @@ export default function Home() {
           <li>高等学校教諭一種免許(数学)</li>
           <li>高等学校教諭専修免許(情報)</li>
         </ul>
-
-        <div className="flex justify-center"></div>
       </div>
-
       <div className="bg-white drop-shadow p-4 mt-10 lg:min-w-[900px] lg:mx-auto">
         <h1 className="text-center text-xl font-bold">料金</h1>
         <div className="border-t-2" />
@@ -79,6 +76,26 @@ export default function Home() {
           <p className="text-center font-medium">
             月4回×3時間 月額30,000円(税込33,000円)
           </p>
+        </div>
+      </div>
+      <div className="bg-white drop-shadow p-4 mt-10 lg:min-w-[900px] lg:mx-auto">
+        <h1 className="text-center text-xl font-bold">体験・入会</h1>
+        <div className="border-t-2" />
+        <div className="flex flex-col justify-center">
+          <p className="text-center pb-1">
+            体験・入会希望者は、体験・入会リンクからお申込みください。
+          </p>
+          <p className="text-center text-sm pb-2">
+            ※体験日時は、希望日を踏まえて、抽選結果を後日お送りいたします。
+          </p>
+          <a
+            className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfAJmWtPVwwgIHfu-C7jLlpB_q_KyWOI17qMMA0vRU-dTDaYw/viewform?usp=sf_link"
+            target="_blank"
+          >
+            体験・入会 お申込みフォーム
+            <ArrowTopRightOnSquareIcon className="inline-block h-7 mb-1.5"></ArrowTopRightOnSquareIcon>
+          </a>
         </div>
       </div>
     </div>
