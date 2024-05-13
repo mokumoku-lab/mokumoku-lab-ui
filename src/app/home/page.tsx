@@ -1,4 +1,7 @@
+"use client";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
+import { sendGAEvent } from "@next/third-parties/google";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,14 +24,20 @@ export default function Home() {
         <div className="border-t-2" />
         <div className="flex flex-col justify-center">
           <p className="text-center pb-2">伊豆伊東高校(旧 伊東商業高校) 近く</p>
-          <a
+          <Link
             className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
             href="https://goo.gl/maps/CF4aTrgWCr6UcRVs5"
             target="_blank"
+            onClick={() =>
+              sendGAEvent({
+                event: "clickedLink",
+                value: "mapLinkOnHome",
+              })
+            }
           >
             Google マップで開く
             <ArrowTopRightOnSquareIcon className="inline-block h-7 mb-1.5"></ArrowTopRightOnSquareIcon>
-          </a>
+          </Link>
           <div className="w-full h-96 flex justify-center">
             <iframe
               title="モクモクラボの場所"
@@ -88,14 +97,20 @@ export default function Home() {
           <p className="text-center text-sm pb-2">
             ※体験日時は、希望日を踏まえて、抽選結果を後日お送りいたします。
           </p>
-          <a
+          <Link
             className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfAJmWtPVwwgIHfu-C7jLlpB_q_KyWOI17qMMA0vRU-dTDaYw/viewform?usp=sf_link"
             target="_blank"
+            onClick={() =>
+              sendGAEvent({
+                event: "clickedLink",
+                value: "entryLinkOnHome",
+              })
+            }
           >
             体験・入会 お申込みフォーム
             <ArrowTopRightOnSquareIcon className="inline-block h-7 mb-1.5"></ArrowTopRightOnSquareIcon>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
