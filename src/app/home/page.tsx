@@ -28,12 +28,7 @@ export default function Home() {
             className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
             href="https://goo.gl/maps/CF4aTrgWCr6UcRVs5"
             target="_blank"
-            onClick={() =>
-              sendGAEvent({
-                event: "clickedLink",
-                value: "mapLinkOnHome",
-              })
-            }
+            onClick={() => sendGAEvent("event", "map_link_on_home")}
           >
             Google マップで開く
             <ArrowTopRightOnSquareIcon className="inline-block h-7 mb-1.5"></ArrowTopRightOnSquareIcon>
@@ -101,12 +96,7 @@ export default function Home() {
             className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfAJmWtPVwwgIHfu-C7jLlpB_q_KyWOI17qMMA0vRU-dTDaYw/viewform?usp=sf_link"
             target="_blank"
-            onClick={() =>
-              sendGAEvent({
-                event: "clickedLink",
-                value: "entryLinkOnHome",
-              })
-            }
+            onClick={() => sendGAEvent("event", "entry_link_on_home")}
           >
             体験・入会 お申込みフォーム
             <ArrowTopRightOnSquareIcon className="inline-block h-7 mb-1.5"></ArrowTopRightOnSquareIcon>
