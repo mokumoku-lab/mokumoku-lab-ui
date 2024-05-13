@@ -30,8 +30,7 @@ export default function Home() {
             target="_blank"
             onClick={() =>
               sendGAEvent({
-                event: "clickedLink",
-                value: "mapLinkOnHome",
+                event: "map_link_on_home",
               })
             }
           >
@@ -103,8 +102,7 @@ export default function Home() {
             target="_blank"
             onClick={() =>
               sendGAEvent({
-                event: "clickedLink",
-                value: "entryLinkOnHome",
+                event: "entry_link_on_home",
               })
             }
           >

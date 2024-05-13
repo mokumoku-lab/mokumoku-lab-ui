@@ -12,8 +12,7 @@ const Navigation = () => {
           className="hover:text-orange-300 translate-all duration-300"
           onClick={() =>
             sendGAEvent({
-              event: "clickedLink",
-              value: "homeLinkOnNavigation",
+              event: "home_link_on_navigation",
             })
           }
         >
@@ -25,8 +24,7 @@ const Navigation = () => {
           target="_blank"
           onClick={() =>
             sendGAEvent({
-              event: "clickedLink",
-              value: "entryLinkOnNavigation",
+              event: "entry_link_on_navigation",
             })
           }
         >
