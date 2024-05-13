@@ -8,6 +8,8 @@ import Favicon16x16 from "@/assets/metadata/favicon/favicon-16x16.png";
 import Favicon32x32 from "@/assets/metadata/favicon/favicon-32x32.png";
 import SafariPinnedTab from "@/assets/metadata/favicon/safari-pinned-tab.svg";
 import AppleTouchIcon from "@/assets/metadata/favicon/apple-touch-icon.png";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { GOOGLE_ANALYTICS_GTAG_ID } from "@/libs/gtag";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +40,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <GoogleAnalytics gaId={GOOGLE_ANALYTICS_GTAG_ID} />
+      </head>
       <body suppressHydrationWarning={true} className="bg-zinc-100">
         <Header></Header>
         <Navigation></Navigation>
