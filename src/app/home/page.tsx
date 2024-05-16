@@ -26,7 +26,7 @@ export default function Home() {
           <p className="text-center pb-2">伊豆伊東高校(旧 伊東商業高校) 近く</p>
           <Link
             className="mx-auto text-center text-lg font-bold text-blue-500 underline underline-offset-auto hover:text-orange-300 translate-all duration-300"
-            href="https://goo.gl/maps/CF4aTrgWCr6UcRVs5"
+            href="https://maps.app.goo.gl/kPCgvpgP3QKREMFX8"
             target="_blank"
             onClick={() =>
               sendGAEvent({
@@ -41,7 +41,7 @@ export default function Home() {
             <iframe
               title="モクモクラボの場所"
               className="top-0 left-0 w-full lg:w-[850px] h-full"
-              src="https://maps.google.co.jp/maps?ll=34.945015726264394, 139.11535928894378&amp;q=34.945015726264394, 139.11535928894378&amp;output=embed&amp;t=m&amp;z=17"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1611.353773435977!2d139.11468402264128!3d34.944728694692664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019c34ee6501d35%3A0xf427498360befb2f!2z44Oi44Kv44Oi44Kv44Op44Oc!5e0!3m2!1sja!2sjp!4v1715874024381!5m2!1sja!2sjp"
             ></iframe>
           </div>
         </div>
