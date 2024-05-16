@@ -30,7 +30,6 @@ export const metadata: Metadata = {
   other: {
     "msapplication-TileColor": "#da532c",
   },
-  robots: "noindex,nofollow",
 };
 
 export default function RootLayout({
