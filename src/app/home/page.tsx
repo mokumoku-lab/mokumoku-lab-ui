@@ -53,6 +53,9 @@ export default function Home() {
             技術を学びたい方やスキルを磨きたい方の参加をお待ちしています！
           </p>
           <p className="text-center text-sm">※想定対象: 小・中・高校生</p>
+          <p className="text-center text-sm">
+            (大学生など大人も大歓迎！ご相談ください)
+          </p>
         </div>
       </div>
       <div className="bg-white drop-shadow p-4 mt-10 lg:min-w-[900px] lg:mx-auto">
@@ -78,7 +81,10 @@ export default function Home() {
             入会金なし(パソコンなどの機材も原則こちらで用意します)
           </p>
           <p className="text-center font-medium">
-            月4回×3時間 月額30,000円(税込33,000円)
+            月4回×2時間 月額20,000円(税込22,000円)
+          </p>
+          <p className="text-center text-sm font-light">
+            ※1時間当り 税込2,750円
           </p>
         </div>
       </div>
